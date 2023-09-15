@@ -9,13 +9,20 @@ void print_to_98(int n)
 {
 while (1)
 {
-printf("%d, ", n);
 if (n > 98)
+{
+printf("%d, ", n);
 n = n - 1;
+}
 else if (n < 98)
+{
+printf("%d, ", n);
 n = n + 1;
+}
 else
+{
+printf("98");
 break;
 }
-printf("98");
+}
 }
