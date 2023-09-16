@@ -11,13 +11,13 @@ void print_diagonal(int n)
 int i, a;
 if (n > 0)
 {
-for (i = n; i >= 1; i--)
+for (i = 0; i < n; i++)
 {
-for (a = n; a > i; a--)
+for (a = 0; a < i; a++)
 _putchar(' ');
-}
 _putchar(92);
 _putchar('\n');
+}
 }
 else
 _putchar('\n');
