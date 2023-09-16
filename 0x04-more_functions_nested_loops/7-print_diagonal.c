@@ -13,7 +13,7 @@ if (n > 0)
 {
 for (i = n; i >= 1; i--)
 {
-for (a = n; a >= i; a--)
+for (a = n; a > i; a--)
 _putchar(' ');
 }
 _putchar(92);
