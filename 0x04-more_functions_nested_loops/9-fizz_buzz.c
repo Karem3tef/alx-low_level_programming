@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - entry point
  *
@@ -9,7 +9,7 @@
  *
  * Return: always 0
  */
-void main(void)
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -23,4 +23,5 @@ printf("Buzz ");
 else
 printf("%d ", i);
 }
+return (0);
 }
