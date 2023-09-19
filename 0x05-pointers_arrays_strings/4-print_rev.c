@@ -1,18 +1,23 @@
+#include <unistd.h>
 #include "main.h"
-
 /**
-* print_rev -> printing a string in reverse
-* @s: the string to be printed in rev
-*/
-
+ * print_rev - length of a string.
+ *
+ * @s: input for alphabet
+ *
+ * Return: return 0
+ */
 void print_rev(char *s)
 {
 int i;
-int a;
-for (a = 0; s[a] != '\0'; a++)
-{}
-
-for (i = a; i >= 0; i--)
-_putchar(s[i]);
-_putchar('\n');
+i = 0;
+while (s[i] != '\0')
+{
+i++;
 }
+while (i--)
+{
+_putchar(s[i]);
+}
+_putchar('\n');
+}}
