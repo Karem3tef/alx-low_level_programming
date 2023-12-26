@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char i;
-i = 'a';
-while (i >= 'z')
+int i;
+i = 97;
+while (i <= 'z')
 {
 putchar(i);
 i++;
